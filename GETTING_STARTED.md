@@ -9,6 +9,8 @@ python tools/demo.py --cfg configs/CONFIG_FILE \
     --input-files PATH_TO_INPUT_FILES \
     --output-dir PATH_TO_OUTPUT_DIR \
     TEST.MODEL_FILE YOUR_DOWNLOAD_MODEL_FILE
+    MODEL.BACKBONE.PRETRAINED False
+    DATASET.ROOT YOUR_DATASET_DIR
 ```
 
 ### Training & Evaluation in Command Line
